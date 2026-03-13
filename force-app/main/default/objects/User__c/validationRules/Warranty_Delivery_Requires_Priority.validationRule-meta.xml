@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_Delivery_Requires_Priority</fullName>
+    <active>true</active>
+    <description>Ensures Damage requires to case is high.</description>
+    <errorConditionFormula>AND(
+  OR(
+    ISPICKVAL(Issue_Category__c, &quot;Warranty&quot;),
+    ISPICKVAL(Issue_Category__c, &quot;Delivery&quot;)
+  ),
+  ISBLANK(TEXT(Priority__c))
+)</errorConditionFormula>
+    <errorMessage>Priority is mandatory for Warranty and Delivery cases</errorMessage>
+</ValidationRule>

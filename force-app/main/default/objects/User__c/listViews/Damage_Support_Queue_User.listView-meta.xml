@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Damage_Support_Queue_User</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Damage Support Queue</label>
+    <queue>Damage_Support_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>
