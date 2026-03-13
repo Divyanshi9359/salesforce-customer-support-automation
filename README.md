@@ -1,4 +1,20 @@
-# Salesforce DX Project: Next Steps
+# Salesforce DX Pro# Salesforce Customer Support Automation
+
+This project demonstrates automation of customer support using Salesforce.
+
+## Features
+- Case auto assignment flow
+- Queue based case management
+- 3 day reminder automation
+- Approval process for cases
+- Reports and dashboards for monitoring
+
+## Tools Used
+- Salesforce
+- Salesforce Flows
+- Visual Studio Code
+- Salesforce CLI
+- GitHubject: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
